@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Pacifico&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+body {
+    font-family: 'Alata', sans-serif;
+    background-color: #023047;
+    margin: 0;
+    color: white;
+}
+
+header{
+    background-color: #219ebc;
+    border-bottom: #ffb703 solid 5px;
+    position: sticky;
+    box-shadow: 5px 5px 5px white;
+    top: 0; /*for sticky*/
+
+}
+
+main{
+    margin: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+nav li {
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+nav ul a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+h1{
+    color: #fb8500;
+}
+#quote {
+    color: #ffb703;
+    text-align: center;
+    margin: 50px 0 50px 0;
+    
+}
+
+.cards {
+    margin-bottom: 30px;
+    width: 83%;
+}
+
+a{
+    color: #ffb703;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+#career-box{
+    display: inline-block;
+    /* border: white solid; */
+    
+}
+
+.images{
+    border: 3px solid white;
+    border-radius: 25px;
+    width: 150px;
+    float: left;
+    margin-top: 15px;
+   
+}
+
+/* #hokie{
+    opacity: .75;
+} */
+
+.card-text{
+    margin-left: 200px ;
+}
+
+h3{
+    color: #fb8500;
+    
+}
+
+/* #meeting {
+    border: 3px white solid;
+    border-radius: 25px;
+    width: 150px;
+    float: left;
+}*/
+
+
+
+#aside{
+    /* border: white solid; */
+    float: right;
+    
+    
+}
+
+#aside h3 {
+    text-decoration: underline;
+}
+
+footer{
+    border-top: 3px solid white;
+    margin-top: 100px;
+    
+}
+#contact-info { 
+    border: none;
+    text-align: left;
+    margin-top: 20px;
+    margin-right: 80%;
+    color: white;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    
+}
+
+
+#contact-info h3 {
+    text-decoration: underline 2px;
+}
+
+#email {
+    color: #ffb703;
+}
+
+#email:hover {
+    text-decoration: none;
+}
+
+#back-to-top:visited {
+    color: #fb8500;
+}
+
+#back-to-top {
+    float:right;
+    color: #fb8500;
+    text-decoration: none;
+    
+}
+
+#back-to-top:hover {
+    text-decoration: underline;
+
+}
+
+.sm{
+    margin-right: 600px;
+    
+}
+.socialmedia {
+    width: 50px;
+    height: 50px;
+    float: right;   
+    /* I wanted these centered and at the top but wasn't able to get 
+    them there. */
+}
