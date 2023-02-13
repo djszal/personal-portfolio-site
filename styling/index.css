@@ -11,7 +11,7 @@ body {
     font-family: 'Alata', sans-serif;
     background-color: #023047;
     color: white;
-    display: block;
+    /* display: block; */
 }
 
 header{
@@ -19,9 +19,8 @@ header{
     border-bottom: #ffb703 solid 5px;
     position: sticky;
     box-shadow: 5px 5px 5px white;
-    top: 0; /*for sticky*/
+    top: 0; 
     display: block;
-
 }
 
 nav ul {
@@ -51,33 +50,37 @@ nav a:hover {
     color: #ffb703;
 }
 
-#photo-name-boxes{
-    display: block;
+.photo-name-boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 100px;
-    /* I couldn't figure out how to center align the photo with the text. I'm thinking I need to use
-    flexbox, but I didn't want to get into it yet for this part of project (QWIRTY is more dealing with 
-    flexbox).  */
+    border: #219ebc dashed;
 }
 
-#headshot {
-    width: 250px;
+.headshot {
+    /* display: flex; */
+    /* align-items: center; */
+    width: 255px;
+    height: 340px;
     border-radius: 50px;
     padding: 0;
-    margin-left: 50px;
+    /* margin-left: 50px; */
     border: white solid 3px;
-    display: block;
-    float: left;
+    
 }
 
-#name-box {
-    display: block;
-    width: 45%;
+.name-box {
+    /* display: block; */
+    /* width: 45%; */
     border-top: 3px solid white;
     border-bottom: 3px solid white;
     text-align: left;
     padding-left: 10px;
-    margin-left: 350px;
-    margin-bottom: 250px;
+    padding-right: 10px;
+
+    margin-left: 50px;
+    /* margin-bottom: 250px; */
     color: white;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -86,7 +89,7 @@ nav a:hover {
 
 
 
-#name-box h1 {
+.name-box h1 {
     letter-spacing: 2px;
     color: #fb8500;
     
@@ -98,7 +101,7 @@ nav a:hover {
     color: #ffb703;
 }
 
-#name-box #pm {
+.name-box #pm {
     font-size: 15px;
     font-weight: lighter;
     
