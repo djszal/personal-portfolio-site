@@ -107,6 +107,26 @@ nav a:hover {
     
 }
 
+.tech-box{
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    border: green dashed;
+}
+
+.tech-stack{
+    display: flex;
+    justify-content: center;
+}
+
+.tech-logos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 10px;
+    border: red dashed;
+}
 .logos{
     width: 50px;
     height: 50px;
@@ -158,13 +178,12 @@ footer{
 }
 
 .sm{
-    margin-right: 600px;
+    /* margin-right: 600px; */
     
 }
 .socialmedia {
     width: 50px;
     height: 50px;
-    float: right;   
-    /* I wanted these centered and at the top but wasn't able to get 
-    them there. */
+    /* float: right;    */
+  
 }
