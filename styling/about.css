@@ -119,23 +119,15 @@ h3{
 
 footer{
     border-top: 3px solid white;
-    margin-top: 100px;
+    margin-top: 300px;
     
 }
-#contact-info { 
-    border: none;
-    text-align: left;
-    margin-top: 20px;
-    margin-right: 80%;
+.contact-info { 
+    display: flex;
+    justify-content: space-around;
     color: white;
-    margin-left: 25px;
-    margin-bottom: 25px;
-    
-}
-
-
-#contact-info h3 {
-    text-decoration: underline 2px;
+     margin-left: 25px;
+     
 }
 
 #email {
@@ -146,12 +138,7 @@ footer{
     text-decoration: none;
 }
 
-#back-to-top:visited {
-    color: #fb8500;
-}
-
 #back-to-top {
-    float:right;
     color: #fb8500;
     text-decoration: none;
     
@@ -163,13 +150,11 @@ footer{
 }
 
 .sm{
-    margin-right: 600px;
-    
+    display: flex;
 }
 .socialmedia {
     width: 50px;
     height: 50px;
-    float: right;   
-    /* I wanted these centered and at the top but wasn't able to get 
-    them there. */
+    padding-left: 10px;
+  
 }
