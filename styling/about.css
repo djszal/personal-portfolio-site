@@ -72,7 +72,6 @@ a:hover{
 
 #career-box{
     display: inline-block;
-    /* border: white solid; */
     
 }
 
@@ -85,9 +84,6 @@ a:hover{
    
 }
 
-/* #hokie{
-    opacity: .75;
-} */
 
 .card-text{
     margin-left: 200px ;
@@ -98,17 +94,9 @@ h3{
     
 }
 
-/* #meeting {
-    border: 3px white solid;
-    border-radius: 25px;
-    width: 150px;
-    float: left;
-}*/
-
 
 
 #aside{
-    /* border: white solid; */
     float: right;
     
     
