@@ -15,10 +15,9 @@ body {
 header{
     background-color: #219ebc;
     border-bottom: #ffb703 solid 5px;
-    box-shadow: 5px 5px 5px white;
     position: sticky;
-    top: 0; /*for sticky*/
-
+    box-shadow: 5px 5px 5px white;
+    top: 0; 
 }
 
 nav ul {
@@ -28,11 +27,13 @@ nav ul {
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
-    
+    display: flex;
+    justify-content: center;
+    padding-right: 20px;
+
 }
 
 nav li {
-    display: inline-block;
     margin-top: 15px;
     margin-bottom: 15px;
 }
