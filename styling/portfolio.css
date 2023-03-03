@@ -6,22 +6,31 @@
     padding: 0;
   }
 
-body {
+  body {
     font-family: 'Alata', sans-serif;
-    background-color: #023047;
-    color:white;
+    background-color: #124559;
+    color: white;
 }
 
 .buttons{
-    color: #9DAA9F;
+    background-color: #EFF6E0;
+    color: black;
+    border: white solid;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 header{
-    background-color: #219ebc;
-    border-bottom: #ffb703 solid 5px;
+    background-color: #124559;
+    /* border-bottom: #2E3638 solid 5px; */
     position: sticky;
-    box-shadow: 5px 5px 5px white;
+    /* box-shadow: 5px 5px 5px white; */
     top: 0; 
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #EFF6E0;
 }
 
 nav ul {
