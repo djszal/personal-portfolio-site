@@ -12,6 +12,10 @@ body {
     color:white;
 }
 
+.buttons{
+    color: #9DAA9F;
+}
+
 header{
     background-color: #219ebc;
     border-bottom: #ffb703 solid 5px;

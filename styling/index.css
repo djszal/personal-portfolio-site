@@ -9,15 +9,23 @@
 
 body {
     font-family: 'Alata', sans-serif;
-    background-color: #023047;
+    background-color: #627268;
     color: white;
 }
 
+.buttons{
+    background-color: #9DAA9F;
+    color: #2E3638;
+    border: #2E3638 solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
 header{
-    background-color: #219ebc;
-    border-bottom: #ffb703 solid 5px;
+    background-color: #627268;
+    /* border-bottom: #2E3638 solid 5px; */
     position: sticky;
-    box-shadow: 5px 5px 5px white;
+    /* box-shadow: 5px 5px 5px white; */
     top: 0; 
 }
 
@@ -45,7 +53,7 @@ nav a{
 
 nav a:hover {
     text-decoration: underline;
-    color: #ffb703;
+    color: #2E3638;
 }
 
 .photo-name-boxes{
@@ -67,8 +75,8 @@ nav a:hover {
 
 .name-box {
 
-    border-top: 3px solid white;
-    border-bottom: 3px solid white;
+    border-top: 3px solid #2E3638;
+    border-bottom: 3px solid #2E3638;
     text-align: left;
     padding-left: 10px;
     padding-right: 10px;
@@ -84,7 +92,7 @@ nav a:hover {
 
 .name-box h1 {
     letter-spacing: 2px;
-    color: #fb8500;
+    color: white;
     margin-bottom: 20px;
     
 }
@@ -137,7 +145,10 @@ footer{
 }
 
 
-
+#contact-header{
+    margin-top: 10px;
+    margin-left: 20px;
+}
 #email {
     color: #ffb703;
 }
@@ -147,7 +158,7 @@ footer{
 }
 
 #back-to-top {
-    color: #fb8500;
+    color: #ffb703;
     text-decoration: none;
     
 }
