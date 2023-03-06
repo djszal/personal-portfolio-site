@@ -97,10 +97,7 @@ a:hover{
     margin-left: 200px ;
 }
 
-h3{
-    color: #fb8500;
-    
-}
+
 
 
 
@@ -127,8 +124,13 @@ footer{
      
 }
 
+
+#contact-header{
+    margin-top: 10px;
+    margin-left: 20px;
+}
 #email {
-    color: #ffb703;
+    color: #EFF6E0;
 }
 
 #email:hover {
@@ -136,7 +138,7 @@ footer{
 }
 
 #back-to-top {
-    color: #fb8500;
+    color: #EFF6E0;
     text-decoration: none;
     
 }
