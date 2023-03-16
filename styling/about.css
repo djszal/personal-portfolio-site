@@ -64,7 +64,14 @@ h1{
     margin: 50px 0 50px 0;
     
 }
+.about-me{
+    
+    margin-left: 50px;
+}
 
+.section-headers{
+    margin-bottom: 20px ;
+}
 .cards {
     margin-bottom: 30px;
     width: 83%;
