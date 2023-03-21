@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dylan Szalankiewicz | Full Stack Developer</title>
-    <link rel="stylesheet" href="../styling/index.css"/>
+    <link rel="stylesheet" href="../styling/contact.css"/>
+    <script defer src="app.js"></script>
 </head>
 <body>
     <header>
@@ -21,27 +22,27 @@
 
     <main>
 
-        <h1>Contact Me</h1>
+        <h1 class="title">Contact Me</h1>
 
         <form class="form" action="">
-            <label for="Name" class="your-name-label">Your Name</label>
+            <label for="Name" class="label">Your Name</label>
             <div class="input-container">
                 <input type="text" name="Name" class="form-input" required>
             </div>
-        <div class="form-input-box">
-            <label for="Email" class="label">Your Email Address</label>
+            <div class="form-input-box">
+                <label for="Email" class="label">Your Email Address</label>
             <div class="input-container">
                 <input type="email" name="Email" class="form-input" required>
             </div>
-        <div class="form-input-box">
-            <label for="Message" class="label">Your Message</label>
-            <div class="input-container">
-                <textarea  name="Message" class="form-input" rows="6" maxlength="3000" required></textarea>
+            <div class="form-input-box">
+                <label for="Message" class="label">Your Message</label>
+                <div class="input-container">
+                    <textarea  name="Message" class="form-input" rows="6" maxlength="3000" required></textarea>
+                </div>
             </div>
-        </div>
-        <div class="form-input-box">
-            <button type="submit" class="button">Send</button>
-        </div>
+            <div class="form-input-box">
+                <button type="submit" class="button">Send</button>
+            </div>
         </form>
         
     </main>
