@@ -7,12 +7,13 @@ state.contact =
 const myEmail = 'szalank.dj@gmail.com'
 const body = document.body
 
+
 const sendButton = document.querySelector(".button")
 const nameInput = document.querySelector("input[name=Name]");
 const emailInput = document.querySelector("input[name=Email]");
 const messageInput = document.querySelector("textarea[name=Message]");
 
-console.log(state.contact)
+
 
 const sendEmail = (e) => {
     e.preventDefault()
@@ -24,11 +25,19 @@ const sendEmail = (e) => {
     state.contact.email = emailValue
     state.contact.message = messageValue
 
-    const  link= `mailto:${myEmail}?&subject=${state.contact.name}&body=${state.contact.message}`
-    window.location.href = link;
-    
-    console.log(state.contact)
+
+    Email.send({
+        SecureToken : "4ffb2b89-912d-4fcf-b243-b927004706a6",
+        To : myEmail,
+        From : myEmail,
+        Subject : `From Portfolio Site: ${state.contact.name} ${state.contact.email}`,
+        Body : state.contact.message
+    }).then(
+      message => alert(message)
+    );
     
 }
+
+
 
 sendButton.addEventListener("click", sendEmail)
